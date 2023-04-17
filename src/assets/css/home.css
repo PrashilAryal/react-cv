@@ -1,0 +1,63 @@
+.body {
+  background-color: rgb(241, 239, 239);
+  height: 100vh;
+}
+.navbar__listContainer__list .navbar__name {
+  float: left;
+  font-size: 25px;
+}
+.navbar__listContainer__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(241, 239, 239);
+}
+.navbar__listContainer__list > li {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.homePage {
+  margin-top: 20px;
+}
+.portfolioSection {
+  width: 90%;
+  justify-content: center;
+  margin: auto;
+  height: 600px;
+  display: flex;
+}
+.myPhoto__container {
+  height: 85vh;
+  width: 40%;
+}
+.myPhoto__container > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.myDetails__container {
+  border-radius: 5px;
+  background-color: white;
+  height: 80vh;
+  width: 60%;
+  margin-left: 3px;
+  padding: 20px;
+}
+.myDetails__container > h5 {
+  color: rgb(159, 213, 64);
+}
+.myDetails__container > h4 {
+  margin-top: -15px;
+}
+.buttonPrimary {
+  border: 1px solid rgb(159, 213, 64);
+  background-color: rgb(159, 213, 64);
+  color: white;
+  height: 30px;
+}
